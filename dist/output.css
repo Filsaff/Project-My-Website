@@ -999,6 +999,34 @@ video {
   background-image: url('/img/g6.png');
 }
 
+.bg-\[url\(\'\/\'\)\] {
+  background-image: url('/');
+}
+
+.bg-\[url\(\'\/img\'\)\] {
+  background-image: url('/img');
+}
+
+.bg-\[url\(\'\/img\.\'\)\] {
+  background-image: url('/img.');
+}
+
+.bg-\[url\(\'\/img\.g\'\)\] {
+  background-image: url('/img.g');
+}
+
+.bg-\[url\(\'\/img\.g5\'\)\] {
+  background-image: url('/img.g5');
+}
+
+.bg-\[url\(\'\/img\/\'\)\] {
+  background-image: url('/img/');
+}
+
+.bg-\[url\(\'\/img\/g6\.\'\)\] {
+  background-image: url('/img/g6.');
+}
+
 .bg-cover {
   background-size: cover;
 }
