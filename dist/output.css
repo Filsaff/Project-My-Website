@@ -975,56 +975,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\.\.\/img\/g1\.png\'\)\] {
+  background-image: url('../img/g1.png');
+}
+
 .bg-\[url\(\'\.\.\/img\/g2\.png\'\)\] {
   background-image: url('../img/g2.png');
 }
 
 .bg-\[url\(\'\.\.\/img\/g3\.png\'\)\] {
   background-image: url('../img/g3.png');
-}
-
-.bg-\[url\(\'\/img\/g4\.png\'\)\] {
-  background-image: url('/img/g4.png');
-}
-
-.bg-\[url\(\'\/img\/g5\.png\'\)\] {
-  background-image: url('/img/g5.png');
-}
-
-.bg-\[url\(\'\/img\/g6\.png\'\)\] {
-  background-image: url('/img/g6.png');
-}
-
-.bg-\[url\(\'https\:\/\/imgur\.com\/hJ8vjOx\.png\'\)\] {
-  background-image: url('https://imgur.com/hJ8vjOx.png');
-}
-
-.bg-\[url\(\'\/https\:\/\/imgur\.com\/hJ8vjOx\.png\'\)\] {
-  background-image: url('/https://imgur.com/hJ8vjOx.png');
-}
-
-.bg-\[url\(\'\.\.\/https\:\/\/imgur\.com\/hJ8vjOx\.png\'\)\] {
-  background-image: url('../https://imgur.com/hJ8vjOx.png');
-}
-
-.bg-\[url\(\'https\:\/\/imgur\.com\/\'\)\] {
-  background-image: url('https://imgur.com/');
-}
-
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
-.bg-\[url\(\'\.\.\'\)\] {
-  background-image: url('..');
-}
-
-.bg-\[url\(\'\.\.\/img\'\)\] {
-  background-image: url('../img');
-}
-
-.bg-\[url\(\'\.\.\/img\/g1\.png\'\)\] {
-  background-image: url('../img/g1.png');
 }
 
 .bg-\[url\(\'\.\.\/img\/g4\.png\'\)\] {
@@ -1262,6 +1222,16 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-dark {
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
+.text-dark2 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 .opacity-50 {
@@ -1522,6 +1492,12 @@ body{
   visibility: visible;
 }
 
+:is(.dark .dark\:truncate) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 :is(.dark .dark\:bg-dark) {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
@@ -1532,6 +1508,31 @@ body{
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
+:is(.dark .dark\:bg-slate-400) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-slate-500) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-bse) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-bse2) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-dark2) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
 :is(.dark .dark\:text-dark2) {
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
@@ -1540,6 +1541,11 @@ body{
 :is(.dark .dark\:text-white) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-dark) {
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
